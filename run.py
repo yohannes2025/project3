@@ -3,6 +3,7 @@
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
 import copy
+import random
 
 class GameBoard(object):
     def __init__(self, battleships, board_width, board_height):
@@ -56,10 +57,13 @@ class Battleship(object):
             elif direction == "E":
                 el = (head[0] + i, head[1])
             body.append(el)
-        return Battleship(body)
+        return Battleship(body, head, length, direction)
 
-    def __init__(self,body):
+    def __init__(self,body, head, length, direction):
         self.body = body
+        self.head = head
+        self.length = length
+        self.direction = direction
         self.hits = [False] * len(body)
 
     def body_index(self, location):        
@@ -71,8 +75,12 @@ class Battleship(object):
         return all(self.hits)
 
 
-    #b = Battleship.build((1,1), 5, "S")
-    #b2 = Battleship([(1,1), (2,1), (3,1),(4,1),(5,1)])
+class Player(object):
+    def __init__(self, name, shot_function):
+        self.name = name
+        self.shot_function = shot_function
+
+    
 
 def render(game_board, show_battleships=False):
     header = "+" + "_" * game_board.board_width + "+"
@@ -132,6 +140,18 @@ def render_battleships(board_width, board_height, battleships):
 
     print(header)
 
+def get_computer_shot(game_board):
+    x = random.randint(0, game_board.board_width - 1)
+    y = random.randint(0, game_board.board_height - 1)
+    return (x, y)
+
+def get_human_shot(game_board):
+    inp = input("Where do you want to shoot?\n")
+    xstr, ystr = inp.split(",")
+    x = int(xstr)
+    y = int(ystr)
+    return (x, y)
+
 if __name__ == "__main__":
 
 
@@ -145,8 +165,14 @@ if __name__ == "__main__":
         GameBoard(copy.deepcopy(battleships), 10,10)
     ]
 
-    player_names = [
-        "JOhn", "selam"
+    # player_names = [
+    #     "JOhn",
+    #     "Thomas"
+    # ]
+
+    players = [
+        Player("Jack", get_human_shot),
+        Player("Robert", get_computer_shot)
     ]
 
     offensive_idx = 0
@@ -155,22 +181,20 @@ if __name__ == "__main__":
         defensive_idx = (offensive_idx +1) % 2
 
         defensive_board = game_boards[defensive_idx]
+        offensive_player = players[offensive_idx]
 
-        print("%s YOUR Turn!" % player_names[offensive_idx])
-        inp = input("Where do you want to shoot?\n")
-        xstr, ystr = inp.split(",")
-        x = int(xstr)
-        y = int(ystr)
+        print("%s YOUR Turn!" % offensive_player.name)
+        shot_location = offensive_player.shot_function(defensive_board)        
 
-        defensive_board.take_shot((x,y))      
+        defensive_board.take_shot(shot_location)      
         render(defensive_board)
 
         if defensive_board.is_game_over():
-            print("%s WINS!" % player_names[offensive_idx])
+            print("%s WINS!" % offensive_player.name)
             break
         #offensivr plyer becomes the previous defensive player
-        print(offensive_idx)
-        print(defensive_idx)
+        # print(offensive_idx)
+        # print(defensive_idx)
         offensive_idx = defensive_idx
         
 
