@@ -2,6 +2,37 @@
 # You can delete these comments, but do not change the name of this file
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
+class GameBoard(object):
+    def __init__(self, battleships, board_width, board_height):
+        self.battleships = battleships
+        self.shots = []
+        self.board_width = board_width
+        self.board_height = board_height
+    # * Update battleship with any hits
+    # * Save the fact that the shot was a hit or a miss
+    def take_shot(self, shot_location):
+        is_hit = False
+        for b in self.battleships:            
+            idx = b.body_index(shot_location)  
+            if idx is not None:        
+                is_hit = True
+                b.hits[idx] = True                
+                break
+      
+        
+
+
+class Shot(object):
+    def __init__(self, shot_location):
+        for b in self.battleships:
+            try:
+                idx = b.body().index(shot_location)
+                if shot_location in b. body():
+                    is_hit = True
+                    b.hits[idx] = True
+            except ValueError:
+                    pass
+
 class Battleship(object):
     @staticmethod
     def build(head, length, direction):
@@ -20,6 +51,14 @@ class Battleship(object):
 
     def __init__(self,body):
         self.body = body
+        self.hits = [False] * len(body)
+
+    def body_index(self, location):        
+        try:
+            return self.body.index(location)
+        except ValueError:
+            return None
+                
 
     #b = Battleship.build((1,1), 5, "S")
     #b2 = Battleship([(1,1), (2,1), (3,1),(4,1),(5,1)])
@@ -73,10 +112,20 @@ if __name__ == "__main__":
     ]
     for b in battleships:
         print(b.body)
-    render_battleships(10, 10, battleships)
+    
+    game_board = GameBoard(battleships, 10,10)
+    shots = [(1,1), (0,0), (5,7)]
+    for sh in shots:
+        game_board.take_shot(sh)
+
+    for sh in game_board.shots:
+        print(sh.location)
+        print(sh.is_hit)
+    for b in game_board.battleships:
+        print(b.body)
+        print(b.hits)
+
     exit(0)
-
-
 
     shots = []
 
