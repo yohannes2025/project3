@@ -194,5 +194,30 @@ Relationships
   
 ![Input validation](assets/images/input_validation.png)
 
+## Technologies Used
+
+The main technology used to create this program is Python
+HTML and CSS to change the background and add social media links.
+Google API
+Google Sheets
+
+### Resources
+
+- Codeanywhere 
+- Visual Studio Code (VSC)
+- GitHub 
+- Heroku
+- Font Awesome
+- Canva for help with images
+- miro.com to create flow chart
+
+### Libraries
+[colorama Fore & Back](https://pypi.org/project/colorama/)
+[random](https://docs.python.org/3/library/random.html) - to generate contractor number
+[typing](https://www.101computing.net/python-typing-text-effect/))
+[datetime](https://www.programiz.com/python-programming/datetime)
+[sleep](https://www.programiz.com/python-programming/time/sleep) - function for delays in typing out lines
+
+
 
 
