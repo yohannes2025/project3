@@ -79,9 +79,7 @@ Preparing for future growth is essential to accommodate more users.
 
 
 
-### Development
-
-# Ultimate Battleships Game
+## Development
 
 Welcome to the Ultimate Battleships Game! This is a console-based implementation of the classic game of Battleship where a player competes against a computer opponent. The game involves placing ships on a grid and then taking turns to guess the location of each other's ships.
 
@@ -108,6 +106,7 @@ The `Board` class handles the game logic and maintains the state of the game.
 A dictionary to keep track of game scores:
 ```python
 scores = {"computer": 0, "player": 0}
+
 
 
 ## Features
