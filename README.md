@@ -223,13 +223,10 @@ The portal has been well tested and the results can be viewed [here - TESTING](h
 
 ## Future Updates
 
-The next update of the app will include the option to choose whether it is their first visit (which will show the instructions) or whether they have used the service before - which will show the instructions behind a button.
+- Implementing online multiplayer features.
+- Adding sound effects and graphical enhancements to improve the user interface.
+- Expanding game mechanics, such as power-ups or special ship types.
 
-The ability for a manager to log into the system and confirm working dates and days for each contractor all in one place rather than via separate emails.
-
-Relevant information is accessible by the umbrella company so that HR doesn't have to collate and forward this information.
-
-Other future updates are included in the TESTING.md file.
 
 ## Validation
 
