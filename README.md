@@ -33,7 +33,7 @@ Are you ready to command your fleet and outmaneuver your opponent? Let the battl
 
 ## Introduction
 
-The Player takes turns guessing coordinates on the grid, attempting to hit and sink the opponent's(computer's) ships. A hit is marked on the board, and the player continues targeting until all ships are hit, sinking them. The player wins the game if all of the computers's ships are sunk. The other way round if the computer sinks all the player's ships the player loses the game.
+Welcome to the Ultimate Battleships Game! This is a console-based implementation of the classic game of Battleship where a player competes against a computer opponent. The game involves placing ships on a grid and then taking turns to guess the location of each other's ships.
 
 ## Project 
 
@@ -80,15 +80,7 @@ Preparing for future growth is essential to accommodate more users.
 
 
 ## Pre development
-I wrote out notes and created a flow chart. All I had to do then is follow my notes and code one area at a time before moving on to the next. I set up projects in GitHub to write out work that needed to be done. The aim is to provide early and continuous delivery of the project.
 
-![ccccp flow chart](/assets/images/ccccp-flow-chart.png)
-
-My actual notes that created the flow chart
-
-![CCCCP notes](/assets/images/corri-constructionx500.webp)
-
-![CCCCP notes](/assets/images/corri-rm-construction.webp)
 
 ### Development
 
