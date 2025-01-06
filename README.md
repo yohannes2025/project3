@@ -107,6 +107,65 @@ A dictionary to keep track of game scores:
 ```python
 scores = {"computer": 0, "player": 0}
 
+Helper Functions
+----------------
+
+-   `random_point(board_size)`: Returns a random integer between 0 and `board_size - 1`.
+
+-   `valid_coordinates(x, y, board)`: Checks if coordinates are valid and not already occupied.
+
+-   `populate_board(board)`: Places ships randomly on the board.
+
+-   `populate_board_player(board)`: Allows the player to manually place ships on the board.
+
+-   `get_player_guess(board)`: Gets the player's guess input.
+
+-   `get_computer_guess(board)`: Generates a random guess for the computer.
+
+-   `take_turn(board, guess_func)`: Handles a single turn for either player or computer.
+
+-   `play_game(computer_board, player_board)`: Alternates turns between player and computer until the game ends.
+
+-   `new_game()`: Initializes and starts a new game.
+
+Game Flow
+---------
+
+### Initialization
+
+-   Input: Board size, number of ships, player name
+
+-   Create `Board` instances for the computer and player
+
+### Setup Phase
+
+-   Player manually places ships
+
+-   Computer places ships randomly
+
+### Gameplay Phase
+
+-   Alternate turns between player and computer
+
+-   Handle guesses and process hits/misses
+
+-   Update scores
+
+-   Display updated boards and summary
+
+### Endgame
+
+-   Declare the winner based on remaining ships
+
+-   Display final scores
+
+Relationships
+-------------
+
+-   `new_game()` creates `Board` objects and calls `populate_board` or `populate_board_player`.
+
+-   `play_game()` uses helper functions like `get_player_guess`, `get_computer_guess`, and `take_turn`.
+
 
 
 ## Features
