@@ -218,7 +218,80 @@ The main technology used to create this program is Python
 
 ## Testing
 
-The portal has been well tested and the results can be viewed [here - TESTING](https://github.com/todiane/corri-construction-p3/blob/main/TESTING.md)
+### 1\. **Testing Methodology**
+
+#### **Unit Testing**
+
+-   Core game functions were tested in isolation to ensure they work as intended.
+-   Focus areas:
+    -   Board initialization.
+    -   Ship placement validation.
+    -   Attack logic (hit, miss, repeat).
+    -   Game-ending conditions.
+
+#### **Integration Testing**
+
+-   Verified that all components work seamlessly together in a complete game session.
+
+#### **Manual Testing**
+
+-   Simulated multiple game sessions to test user interactions and edge cases.
+
+#### **Static Code Analysis**
+
+-   Used linting tools to identify and fix formatting issues and coding standard violations.
+
+* * * * *
+
+### 2\. **Tools Used**
+
+-   **Unit Testing**: `unittest` (Python's built-in testing library).
+-   **Linting**: `flake8` and `black` for PEP 8 compliance and formatting.
+-   **Manual Testing**: Command-line execution.
+
+* * * * *
+
+### 3\. **Test Cases**
+
+#### **Unit Tests**
+
+| Feature | Test Case Description | Result |
+| --- | --- | --- |
+| Board Initialization | Verify the board initializes with correct dimensions and empty cells. | ✅ Passed |
+| Ship Placement | Ensure valid placement of ships and rejection of overlaps or out-of-bounds positions. | ✅ Passed |
+| Attack Logic | Validate outcomes for hits, misses, and repeated coordinates. | ✅ Passed |
+| Game End Condition | Confirm the game ends correctly when all ships are sunk. | ✅ Passed |
+
+#### **Edge Cases**
+
+| Scenario | Test Case Description | Result |
+| --- | --- | --- |
+| Invalid Input Handling | Reject non-numeric or improperly formatted inputs gracefully. | ✅ Passed |
+| Boundary Conditions | Prevent out-of-bound attacks or placements. | ✅ Passed |
+| AI Behavior | Ensure AI avoids repeated guesses and follows rules. | ✅ Passed |
+
+* * * * *
+
+### 4\. **Static Code Analysis**
+
+-   **Flake8 Results**:
+    -   **Warnings**: Addressed all `E501: line too long` warnings.
+    -   **Other Issues**: No other significant violations found.
+-   **Black Formatting**:
+    -   Reformatted the code for consistent style.
+
+* * * * *
+
+### 5\. **Testing Results**
+
+| Type of Test | Status |
+| --- | --- |
+| Unit Testing | ✅ Completed |
+| Integration Testing | ✅ Completed |
+| Manual Testing | ✅ Completed |
+| Static Code Analysis | ✅ Completed |
+
+* * * * *
 
 
 ## Future Updates
@@ -242,7 +315,7 @@ Result: The game logic functions as expected.
         Validated correctly (e.g., invalid formats are rejected).
         Correct handling of edge cases (e.g., out-of-bounds coordinates).
    
-5. Integration Validation
+4. Integration Validation
 Result: The program runs end-to-end without crashes or critical errors:
     A player can complete a game session from start to finish.
     Errors are gracefully handled with appropriate messages to the user.
