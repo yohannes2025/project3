@@ -348,7 +348,7 @@ The deployed project live link is [HERE](https://corri-construction-8c4725a33281
 
 ## Bugs
 
-After importing the type element so that text can be typed out a line at a time the codes for Fore.WHITE or bold kept showing up e.g. '\033[1m' for bold was typed out. To fix this I had to remove - colorama.init(autoreset=True) - which  meant I had to go through each line of code to ensure if one line was red, all subsequent lines didn't turn red. 
+The following bugs are tracked and handled, invalid input, out-of-bounds cooedinates, inccorect game end conditions, invalid ship placement, ship overlap, and board display formatting.
 
 ## Credits
 
