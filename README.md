@@ -16,7 +16,6 @@ Are you ready to command your fleet and outmaneuver your opponent? Let the battl
   - [Ultimate Battleships Game - Site Owner Goals](#Ultimate-Battleships-Game---Site-Owner-Goals)
 - [Development](#development)
 - [Features](#features)
-
 - [Technologies Used](#technologies-used)
 - [Resources](#resources)
   - [Libraries](#libraries)
@@ -173,3 +172,31 @@ Relationships
 -   `new_game()` creates `Board` objects and calls `populate_board` or `populate_board_player`.
 
 -   `play_game()` uses helper functions like `get_player_guess`, `get_computer_guess`, and `take_turn`.
+
+## Features
+
+1. Manual placement of ships by player.
+   
+![manual placement](assets/images/ship_placement.png)
+
+2. Random board generation for computer and player cannot see where the computer's ships are.
+   
+![Random board](assets/images/random_board.png)
+
+3. Accepts user inputs and gives saummary of scores after each round
+   
+![Round score](assets/images/round_score.png)
+
+4. Input validation for 
+- Numbers out fo board's range
+- Check whether inputs are numbers
+- Checks whether the same coordinates are given more than once
+  
+![Input validation](assets/images/input_validation.png)
+
+
+## Key Features
+1. Strategic Placement: Players must carefully position their ships to maximize defense while minimizing predictability.
+2. Deductive Reasoning: Every missed or successful shot brings new information, challenging players to think critically and outwit their opponent.
+3. Simple Yet Engaging: The rules are straightforward, but the gameplay offers endless strategic depth and replayability.
+
