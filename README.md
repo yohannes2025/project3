@@ -195,8 +195,4 @@ Relationships
 ![Input validation](assets/images/input_validation.png)
 
 
-## Key Features
-1. Strategic Placement: Players must carefully position their ships to maximize defense while minimizing predictability.
-2. Deductive Reasoning: Every missed or successful shot brings new information, challenging players to think critically and outwit their opponent.
-3. Simple Yet Engaging: The rules are straightforward, but the gameplay offers endless strategic depth and replayability.
 
