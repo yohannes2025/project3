@@ -18,7 +18,6 @@ Are you ready to command your fleet and outmaneuver your opponent? Let the battl
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Resources](#resources)
-  - [Libraries](#libraries)
 - [Testing](#testing)
 - [Future Updates](#future-updates)  
 - [Validation](#validation)
