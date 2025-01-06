@@ -216,5 +216,87 @@ The main technology used to create this program is Python
 3. PEP8 Python Validator for Python Code Validation.
 
 
+## Testing
+
+The portal has been well tested and the results can be viewed [here - TESTING](https://github.com/todiane/corri-construction-p3/blob/main/TESTING.md)
+
+
+## Future Updates
+
+The next update of the app will include the option to choose whether it is their first visit (which will show the instructions) or whether they have used the service before - which will show the instructions behind a button.
+
+The ability for a manager to log into the system and confirm working dates and days for each contractor all in one place rather than via separate emails.
+
+Relevant information is accessible by the umbrella company so that HR doesn't have to collate and forward this information.
+
+Other future updates are included in the TESTING.md file.
+
+## Validation
+
+PEP8 - Python style guide checker imported - https://pypi.org/project/pep8/
+All code validated and where lines were showing as too long they were adjusted. Some line adjustments caused bugs in the code and it stopped working so they were left as longer lines to avoid this issue. pycodestyle . - was used in Codeanywhere terminal to list any issues.
+
+## Deployment
+
+### Heroku
+
+The Application has been deployed from GitHub to Heroku by following the steps:
+
+1. Create or log in to your account at heroku.com
+2. Create a new app, add a unique app name ( for example corri-construction-p3) and then choose your region
+3. Click on create app
+4. Go to "Settings"
+5. Under Config Vars add the private API key information using key 'CRED' and into the value area copy the API key information added to the .json file.  Also add a key 'PORT' and value '8000'.
+6. Add required buildpacks (further dependencies). For this project, set it up so Python will be on top and Node.js on bottom
+7. Go to "Deploy" and select "GitHub" in "Deployment method"
+8. To connect Heroku app to your Github repository code enter your repository name, click 'Search' and then 'Connect' when it shows below.
+9.  Choose the branch you want to build your app from
+10. If preferred, click on "Enable Automatic Deploys", which keeps the app up to date with your GitHub repository
+11. Wait for the app to build. Once ready you will see the “App was successfully deployed” message and a 'View' button to take you to your deployed link.
+
+### Branching the GitHub Repository using GitHub Desktop and Visual Studio Code
+1. Go to the GitHub repository.
+2. Click on the branch button in the left hand side under the repository name.
+3. Give your branch a name.
+4. Go to the CODE area on the right and select "Open with GitHub Desktop".
+5. You will be asked if you want to clone the repository - say yes.
+6. GitHub desktop will suggest what to do next - select Open code using Visual Studio Code.
+   
+The deployed project live link is [HERE](https://corri-construction-8c4725a33281.herokuapp.com/) - ***Use Ctrl (Cmd) and click to open in a new window.*** 
+
+## Bugs
+
+After importing the type element so that text can be typed out a line at a time the codes for Fore.WHITE or bold kept showing up e.g. '\033[1m' for bold was typed out. To fix this I had to remove - colorama.init(autoreset=True) - which  meant I had to go through each line of code to ensure if one line was red, all subsequent lines didn't turn red. 
+
+## Credits
+
+Free Code Camp Python for everyone course that helped me get my project started - [here](https://www.youtube.com/watch?v=wgkC8SxraAQ)
+
+py4e autograder to help with checking maths - [here](https://www.py4e.com/tsugi/store/test/pythonauto )
+
+Geek for Geek to help me use strip() to add required field for first/last name - [here](https://www.geeksforgeeks.org/python-program-to-check-if-string-is-empty-or-not/)
+
+
+Help putting together the function that calculates income tax and national insurance I started with this video and adapted it - [here](https://www.youtube.com/watch?v=b4lok6-_GGg )
+
+To change numerical value to end in two figures only - [here](https://tutorial.eyehunts.com/python/how-to-display-2-decimal-places-in-python-example-code/)
+
+Using colorama import - [here](https://www.youtube.com/watch?v=u51Zjlnui4Y )
+
+
+Being able to bold and center font - taken from w3Schools - [here](https://www.w3schools.com/python/ref_string_center.asp)
+
+
+## Acknowledgements
+
+Code Institute women-in-tech group for their support during huddles and when reviewing my code.
+
+Peer-review slack channel for help trying to find any issues/break the code.
+
+Tutor support for help with figuring out how to round numbers in Google sheet.
+
+Travis.media community - To help with date/hours/time function so it worked correctly.
+
+My mentor Andre Aquilina for teaching me about the proper structure for code - e.g. imports, functions, main code and for encouraging me to create the Google sheets addition and for helping with explaining coding.
 
 
