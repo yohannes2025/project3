@@ -33,7 +33,7 @@ Are you ready to command your fleet and outmaneuver your opponent? Let the battl
 
 ## Introduction
 
-The Player take turns guessing coordinates on the grid, attempting to hit and sink the opponent's(computer's) ships. A hit is marked on the board, and the player continues targeting until all ships are hit, sinking them. The player wins the game if all of the computers's ships are sunk.
+The Player takes turn guessing coordinates on the grid, attempting to hit and sink the opponent's(computer's) ships. A hit is marked on the board, and the player continues targeting until all ships are hit, sinking them. The player wins the game if all of the computers's ships are sunk.
 
 ## Project 
 
