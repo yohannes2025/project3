@@ -33,7 +33,7 @@ Are you ready to command your fleet and outmaneuver your opponent? Let the battl
 
 ## Introduction
 
-This portal asks contractors to input their name, profession, working dates, number of days worked and number of hours. They are then given a rough estimate of their pay due after tax and NI (which is handled by an umbrella company). The data is forwarded to HR (who extract information for the umbrella company) with a copy also sent to the contractor's email address.
+Players take turns guessing coordinates on the grid, attempting to hit and sink the opponent's ships. A hit is marked on the board, and the player continues targeting until all parts of a ship are hit, sinking it. The first player to sink all of their opponent's ships wins the game.
 
 ## Project 
 
