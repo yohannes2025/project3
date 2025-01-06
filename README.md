@@ -113,7 +113,7 @@ Welcome to the Ultimate Battleships Game! This is a console-based implementation
 
     -   `scores = {"computer": 0, "player": 0}`
 
-Helper Functions
+### Helper Functions
 ----------------
 
 -   `random_point(board_size)`: Returns a random integer between 0 and `board_size - 1`.
@@ -134,7 +134,7 @@ Helper Functions
 
 -   `new_game()`: Initializes and starts a new game.
 
-Game Flow
+### Game Flow
 ---------
 
 ### Initialization
@@ -165,12 +165,13 @@ Game Flow
 
 -   Display final scores
 
-Relationships
+### Relationships
 -------------
 
 -   `new_game()` creates `Board` objects and calls `populate_board` or `populate_board_player`.
 
 -   `play_game()` uses helper functions like `get_player_guess`, `get_computer_guess`, and `take_turn`.
+  
 
 ## Features
 
