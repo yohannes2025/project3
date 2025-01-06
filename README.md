@@ -350,26 +350,19 @@ The deployed project live link is [HERE](https://corri-construction-8c4725a33281
 
 The following bugs are tracked and handled, invalid input, out-of-bounds cooedinates, inccorect game end conditions, invalid ship placement, ship overlap, and board display formatting.
 
-## Credits
 
 ## Credits
-- Code Institute Portfolio 3: Project Submission lesson  for using the set-up code for the Ultimate Battleship game.
 
 ### Code Used
 - Random number generation and validation logic for ship placement were inspired by standard Python documentation.
+- Code Institute Portfolio 3: Project Submission lesson  for using the sample code for this Ultimate Battleship game project.
 
 ### Content
 - Game rules based on the classic Battleship board game from [wikipedia ](https://en.wikipedia.org/wiki/Battleship)
 
-### Media
-- No media used.
-
 ### Acknowledgments
 - Special thanks to Code Institute for giving me the opportunity to learn as a full stack software development.
-Tutor support for helping me to understsnd the Love Sandwiches sample project.
-
-
-
-My mentor Jubril Akolade for teaching me the assessment criteria and general guide of python project.
+- Tutor support for helping me to understsnd the Love Sandwiches sample project.
+- My mentor Jubril Akolade for teaching me the assessment criteria and general guide of python project.
 
 
