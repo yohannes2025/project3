@@ -57,13 +57,6 @@ The Player takes turns guessing coordinates on the grid, attempting to hit and s
 - Personalize the game board, ships, and other visual elements.
 - Select difficulty levels or specific rulesets.
 
-### Social Interaction
-- Play with friends and communicate during the game (via chat or other social features).
-- Share achievements or scores on social media.
-
-### Ad-Free or Premium Experience (Optional)
-- Avoid interruptions by purchasing a premium version or earning in-game currency.
-
 
 ## Ultimate Battleships Game - Site Owner Goals
 
