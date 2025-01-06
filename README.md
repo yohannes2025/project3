@@ -197,9 +197,6 @@ Relationships
 ## Technologies Used
 
 The main technology used to create this program is Python
-HTML and CSS to change the background and add social media links.
-Google API
-Google Sheets
 
 ### Resources
 
