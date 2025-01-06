@@ -188,7 +188,7 @@ Relationships
 ![Round score](assets/images/round_score.png)
 
 4. Input validation for 
-- Numbers out fo board's range
+- Numbers out of board's range
 - Check whether inputs are numbers
 - Checks whether the same coordinates are given more than once
   
