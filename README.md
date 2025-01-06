@@ -205,13 +205,19 @@ The main technology used to create this program is Python
 - Heroku
 
 
+### Accessibility
+- Keyboard-only interaction ensures the game is accessible for users with visual impairments when paired with screen readers.
+- Clear and concise text-based instructions.
 
-### Libraries
-[colorama Fore & Back](https://pypi.org/project/colorama/)
-[random](https://docs.python.org/3/library/random.html) - to generate contractor number
-[typing](https://www.101computing.net/python-typing-text-effect/))
-[datetime](https://www.programiz.com/python-programming/datetime)
-[sleep](https://www.programiz.com/python-programming/time/sleep) - function for delays in typing out lines
+## Technologies Used
+
+### Languages Used
+- Python
+
+### Frameworks, Libraries & Programs Used
+1. Python Standard Library
+2. Heroku for deployment to the server.
+3. PEP8 Python Validator for Python Code Validation.
 
 
 
