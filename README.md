@@ -244,10 +244,10 @@ Result: The game logic functions as expected.
    
 5. Integration Validation
 Result: The program runs end-to-end without crashes or critical errors:
-    Players can complete a game session from start to finish.
+    A player can complete a game session from start to finish.
     Errors are gracefully handled with appropriate messages to the user.
 
-All code validated and lines showing too long were corrected. 
+
 
 ## Deployment
 
