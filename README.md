@@ -12,7 +12,7 @@ Are you ready to command your fleet and outmaneuver your opponent? Let the battl
 
 - [Introduction](#introduction)
 - [Project](#project)
-  - [User goals](#User Goals)
+  - [Ultimate_Battleships_Game--_Site Owner Goals](#Ultimate_Battleships_Game--_Site Owner Goals)
   - [Site owner goals](#site-owner-goals)
 - [Pre development](#pre-development)
 - [Development](#development)
