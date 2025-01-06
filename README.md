@@ -268,7 +268,6 @@ The main technology used to create this program is Python
 | --- | --- | --- |
 | Invalid Input Handling | Reject non-numeric or improperly formatted inputs gracefully. | ✅ Passed |
 | Boundary Conditions | Prevent out-of-bound attacks or placements. | ✅ Passed |
-| AI Behavior | Ensure AI avoids repeated guesses and follows rules. | ✅ Passed |
 
 * * * * *
 
