@@ -12,8 +12,8 @@ Are you ready to command your fleet and outmaneuver your opponent? Let the battl
 
 - [Introduction](#introduction)
 - [Project](#project)
-  - [User goals:](#user-goals)
-  - [Site owner goals](#site-owner-goals)
+  - [User goals:](##user-goals)
+  - [Site owner goals](##site-owner-goals)
 - [Pre development](#pre-development)
 - [Development](#development)
 - [Features](#features)
