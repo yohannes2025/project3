@@ -37,7 +37,7 @@ The Player takes turns guessing coordinates on the grid, attempting to hit and s
 
 ## Project 
 
-## User Goals
+## Ultimate Battleships Game - User Goals
 
 ### Entertainment and Engagement
 - Enjoy a fun, strategic gameplay experience.
