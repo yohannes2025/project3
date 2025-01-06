@@ -352,21 +352,20 @@ The following bugs are tracked and handled, invalid input, out-of-bounds cooedin
 
 ## Credits
 
-Free Code Camp Python for everyone course that helped me get my project started - [here](https://www.youtube.com/watch?v=wgkC8SxraAQ)
+## Credits
+- Code Institute Portfolio 3: Project Submission lesson  for using the set-up code for the Ultimate Battleship game.
 
-py4e autograder to help with checking maths - [here](https://www.py4e.com/tsugi/store/test/pythonauto )
+### Code Used
+- Random number generation and validation logic for ship placement were inspired by standard Python documentation.
 
-Geek for Geek to help me use strip() to add required field for first/last name - [here](https://www.geeksforgeeks.org/python-program-to-check-if-string-is-empty-or-not/)
+### Content
+- Game rules based on the classic Battleship board game.
 
+### Media
+- No media used.
 
-Help putting together the function that calculates income tax and national insurance I started with this video and adapted it - [here](https://www.youtube.com/watch?v=b4lok6-_GGg )
-
-To change numerical value to end in two figures only - [here](https://tutorial.eyehunts.com/python/how-to-display-2-decimal-places-in-python-example-code/)
-
-Using colorama import - [here](https://www.youtube.com/watch?v=u51Zjlnui4Y )
-
-
-Being able to bold and center font - taken from w3Schools - [here](https://www.w3schools.com/python/ref_string_center.asp)
+### Acknowledgments
+- Special thanks to Code Institute for giving me the opportunity to learn as a full stack software development.
 
 
 ## Acknowledgements
