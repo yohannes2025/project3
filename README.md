@@ -18,9 +18,6 @@ Are you ready to command your fleet and outmaneuver your opponent? Let the battl
 - [Development](#development)
 - [Features](#features)
 
-- [Google Sheets](#google-sheets)
-  - [Payments](#payments)
-  - [Tax](#tax)
 - [Technologies Used](#technologies-used)
 - [Resources](#resources)
   - [Libraries](#libraries)
