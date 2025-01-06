@@ -359,25 +359,17 @@ The following bugs are tracked and handled, invalid input, out-of-bounds cooedin
 - Random number generation and validation logic for ship placement were inspired by standard Python documentation.
 
 ### Content
-- Game rules based on the classic Battleship board game.
+- Game rules based on the classic Battleship board game from [wikipedia ](https://en.wikipedia.org/wiki/Battleship)
 
 ### Media
 - No media used.
 
 ### Acknowledgments
 - Special thanks to Code Institute for giving me the opportunity to learn as a full stack software development.
+Tutor support for helping me to understsnd the Love Sandwiches sample project.
 
 
-## Acknowledgements
 
-Code Institute women-in-tech group for their support during huddles and when reviewing my code.
-
-Peer-review slack channel for help trying to find any issues/break the code.
-
-Tutor support for help with figuring out how to round numbers in Google sheet.
-
-Travis.media community - To help with date/hours/time function so it worked correctly.
-
-My mentor Andre Aquilina for teaching me about the proper structure for code - e.g. imports, functions, main code and for encouraging me to create the Google sheets addition and for helping with explaining coding.
+My mentor Jubril Akolade for teaching me the assessment criteria and general guide of python project.
 
 
