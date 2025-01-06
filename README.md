@@ -276,8 +276,6 @@ The main technology used to create this program is Python
 -   **Flake8 Results**:
     -   **Warnings**: Addressed all `E501: line too long` warnings.
     -   **Other Issues**: No other significant violations found.
--   **Black Formatting**:
-    -   Reformatted the code for consistent style.
 
 * * * * *
 
