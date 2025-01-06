@@ -103,54 +103,19 @@ In the "input dates and hours" section testing highlighted the fact that a custo
 
 ## Features
 
-### Slow Typing Instructions
-A staggered typing effect was used to display the instructions at the beginning and at different stages of the program at close to reading speed. The sleep effect was used to allow for delays in displaying the next line of information.
-This provided time for the customer to process the information given before starting to input their details, the hope is that this will result in a reduction in input errors.
+1. Manual placement of ships by player.
+![manual placement](assets/images/ship_placement.png)
+2. Random board generation for computer and player cannot see where the computer's ships are.
+![Random board](assets/images/random_board.png)
+3. Accepts user inputs and gives saummary of scores after each round
+![Round score](assets/images/round_score.png)
+4. Input validation for 
+- Numbers out fo board's range
+- Check whether inputs are numbers
+- Checks whether the same coordinates are given more than once
+![Input validation](assets/images/input_validation.png)
 
-### Name and profession input
-This feature gives the program the information it needs to find the contractor and connect to their employee number. 
 
-![CCCCP name](/assets/images/cc-rm-name.png)
-
-
-Next. The contractor is asked to select their profession. An error message is displayed if an invalid letter is added:
-
-![CCCCP profession](/assets/images/cc-rm-profession-invalid.png)
-
-An opportunity to pick again if the wrong profession was selected has also been given.
-
-![CCCCP profession](/assets/images/cc-rm-profession-incorrect.png)
-
-### Hourly pay and employee number
-Once a contractor has selected their name and profession and confirms the information is correct, the computer brings up confirmation of their hourly pay and contractor number.
-
-![CCCCP pay](/assets/images/cc-rm-pay-number-confirmation.png)
-
-### Working dates, days and hours
-The contractor is then prompted to add the dates they worked, the number of days and the number of hours. The number of days worked was not originally included in the program but after testing it was added to avoid any confusion about the days a contractor has worked. 
-
-![CCCCP dates](/assets/images/cc-rm-incorrect-dates.png)
-
-The dates and number of days must match exactly otherwise the user cannot continue to add any further details. This avoids a contractor adding that they worked for 1-08-2023 to 7-08-2023 but they only worked 3 out of those 7 days. The contractor will then have to complete the exact number of days to continue moving forward.
-
-### Confirm information so far
-
-The contractor will be asked to confirm all the information they have submitted so far before being able to move on. 
-
-![CCCCP check](/assets/images/cc-rm-check-information.png)
-
-If anything needs to change e.g. name, professions, hours, dates etc. the contractor selects n for no.
-
-![CCCCP no selection](/assets/images/cc-rm-check-information-invalid.png)
-
-### Tax and National Insurance
-Once all information has been added the program will give a contractor a rough estimate of the tax and national insurance due, which is taken by an umbrella company they joined. The majority of self-employed contractors pay 20% tax or less so it wasn't felt necessary to include a 40% tax option for those earning more than £67,500 in a tax year. This could be added in the future if necessary.
-
-![CCCCP confirm](/assets/images/cc-rm-check-information-ok.png)
-
-### Confirmation of information
-
-Once the amount before and after tax has been shown the contractor can confirm that they would like this information submitted to HR. HR keep detailed information on the contractors they use and the hours they work. The information submitted is checked by a manager who confirms the working hours and days. Information on tax and NI payments is sent to the umbrella company.
 
 
 ### What the portal checks
