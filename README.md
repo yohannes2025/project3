@@ -76,7 +76,7 @@ Leveraging user data (with appropriate legal considerations) to improve the game
 Building a strong brand is vital for attracting and retaining users.
 
 ### Scalability
-Preparing for future growth is essential to accommodate a user.
+Preparing for future growth is essential to accommodate more users.
 
 
 ## Pre development
