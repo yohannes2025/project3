@@ -229,9 +229,25 @@ The portal has been well tested and the results can be viewed [here - TESTING](h
 
 
 ## Validation
+1. Syntax Validation
+    Result: The code executes without syntax errors.
+   
+2. Linter Warnings/Errors (PEP 8 Validation)
+   E501: Line Too Long:
+    Lines exceed the recommended 79 characters. These have been flagged, and corrections have been applied by splitting lines appropriately.
+   
+3. Functional Validation
+Result: The game logic functions as expected.
+    Player Input:
+        Validated correctly (e.g., invalid formats are rejected).
+        Correct handling of edge cases (e.g., out-of-bounds coordinates).
+   
+5. Integration Validation
+Result: The program runs end-to-end without crashes or critical errors:
+    Players can complete a game session from start to finish.
+    Errors are gracefully handled with appropriate messages to the user.
 
-PEP8 - Python style guide checker imported - https://pypi.org/project/pep8/
-All code validated and where lines were showing as too long they were adjusted. Some line adjustments caused bugs in the code and it stopped working so they were left as longer lines to avoid this issue. pycodestyle . - was used in Codeanywhere terminal to list any issues.
+All code validated and lines showing too long were corrected. 
 
 ## Deployment
 
