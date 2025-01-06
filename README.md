@@ -14,7 +14,6 @@ Are you ready to command your fleet and outmaneuver your opponent? Let the battl
 - [Project](#project)
   - [Ultimate Battleships Game - User Goals](#Ultimate-Battleships-Game---User-Goals)
   - [Ultimate Battleships Game - Site Owner Goals](#Ultimate-Battleships-Game---Site-Owner-Goals)
-- [Pre development](#pre-development)
 - [Development](#development)
 - [Features](#features)
 
@@ -79,19 +78,36 @@ Building a strong brand is vital for attracting and retaining users.
 Preparing for future growth is essential to accommodate more users.
 
 
-## Pre development
-
 
 ### Development
 
-Code was written for each part of the program starting with the header and input for contractors to add their name. Once each section was working the development of the following section took place. Once all sections had been created testing took place which highlighted the need for additional features.
+# Ultimate Battleships Game
 
-i.e.
-In the "input name" section the user could hit enter and a blank space would be inputted so the first and last names were made required fields. Instructions were written to ensure each user understood the importance of entering their name only. After testing with required fields, the inability to add symbols and numbers was also added.
+Welcome to the Ultimate Battleships Game! This is a console-based implementation of the classic game of Battleship where a player competes against a computer opponent. The game involves placing ships on a grid and then taking turns to guess the location of each other's ships.
 
-![CCCCP name error](/assets/images/cc-rm-name-error.png)
+## Classes and Objects
 
-In the "input dates and hours" section testing highlighted the fact that a customer can enter that they worked for just one day but worked 36 hours. Additional coding was added to ensure the maximum number of hours worked in a day was 13 and that applied whether a user worked one day or 10.
+### Board
+The `Board` class handles the game logic and maintains the state of the game.
+
+- **Attributes:**
+  - `board_size`: Size of the board (integer).
+  - `num_ships`: Number of ships to be placed on the board (integer).
+  - `name`: Name of the board owner (string).
+  - `type`: Type of board (string: "player" or "computer").
+  - `guesses`: List of guesses made on the board (list of tuples).
+  - `ships`: List of ship locations on the board (list of tuples).
+
+- **Methods:**
+  - `__init__(self, board_size, num_ships, name, board_type)`: Initializes the board with given parameters.
+  - `display(self, hide_ships=False)`: Displays the current state of the board.
+  - `process_guess(self, x, y)`: Processes a player's guess and updates the board.
+  - `add_ship(self, x, y)`: Adds a ship at specified coordinates.
+
+### Global Scores
+A dictionary to keep track of game scores:
+```python
+scores = {"computer": 0, "player": 0}
 
 
 ## Features
