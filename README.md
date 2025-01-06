@@ -200,13 +200,11 @@ The main technology used to create this program is Python
 
 ### Resources
 
-- Codeanywhere 
-- Visual Studio Code (VSC)
+- Visual Studio Code
 - GitHub 
 - Heroku
-- Font Awesome
-- Canva for help with images
-- miro.com to create flow chart
+
+
 
 ### Libraries
 [colorama Fore & Back](https://pypi.org/project/colorama/)
