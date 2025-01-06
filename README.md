@@ -37,25 +37,37 @@ The Player takes turns guessing coordinates on the grid, attempting to hit and s
 
 ## Project 
 
-The aim of this project is to:
+## User Goals
 
-- Reduce the number of calls from contractors to HR asking about their pay.
-- Encourage contractors to enter their working dates regularly and within a couple of months.
-- Provide a system that will send the information added by the contractor to HR as well as the user.
-- Provide clear, visible instructions with each visit.*
+### Entertainment and Engagement
+- Enjoy a fun, strategic gameplay experience.
+- Have an intuitive and seamless user interface.
+- Experience a fair and balanced game.
 
-![storyboard](assets/images/ccccp-storyboard-small.png)
+### Competitive Play
+- Challenge friends or random opponents in multiplayer mode.
+- Improve skills through repeated play and strategizing.
+- Track wins, losses, and rankings (if a leaderboard is present).
 
+### Ease of Access
+- Access the game easily on multiple platforms (desktop, mobile, or tablet).
+- Play without needing extensive instructions or tutorials.
 
-*Contractors felt that it was important for the instructions to be shown EACH TIME a contractor visits. In a questionnaire sent out many of them cited their dislike of technology and the fact that they tend to ignore instructions unless they are in front of them. This then results in phone calls to HR that could easily be avoided. For this reason it was decided to leave the instructions in full view each time, rather than hide them behind an instruction button.
+### Customization
+- Personalize the game board, ships, and other visual elements.
+- Select difficulty levels or specific rulesets.
 
-### User goals:
+### Social Interaction
+- Play with friends and communicate during the game (via chat or other social features).
+- Share achievements or scores on social media.
 
-Get clear instructions on how to use the system in front of them that they can refer to if needed.
-The ability to input their details including dates of work, days, and hours.
-Retrieve their employee number.
-Get an estimate of tax and national insurance due to be paid.
-Receive a copy of the information inputted via email.
+### Progression and Rewards
+- Unlock achievements, badges, or levels for motivation.
+- Earn rewards (in-game or real-life incentives like coupons, depending on the platform).
+
+### Ad-Free or Premium Experience (Optional)
+- Avoid interruptions by purchasing a premium version or earning in-game currency.
+
 
 
 ### Site owner goals
