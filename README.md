@@ -245,7 +245,6 @@ The main technology used to create this program is Python
 
 ### 2\. **Tools Used**
 
--   **Unit Testing**: `unittest` (Python's built-in testing library).
 -   **Linting**: `flake8` and `black` for PEP 8 compliance and formatting.
 -   **Manual Testing**: Command-line execution.
 
