@@ -209,10 +209,6 @@ The main technology used to create this program is Python
 - Keyboard-only interaction ensures the game is accessible for users with visual impairments when paired with screen readers.
 - Clear and concise text-based instructions.
 
-## Technologies Used
-
-### Languages Used
-- Python
 
 ### Frameworks, Libraries & Programs Used
 1. Python Standard Library
