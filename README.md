@@ -194,6 +194,10 @@ Welcome to the Ultimate Battleships Game! This is a console-based implementation
   
 ![Input validation](assets/images/input_validation.png)
 
+## Testing
+
+The portal has been well tested and the results can be viewed [here - TESTING](https://github.com/yohannes2025/project3/blob/main/TEST.md)
+
 ## Technologies Used
 
 The main technology used to create this program is Python
